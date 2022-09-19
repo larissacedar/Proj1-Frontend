@@ -1,0 +1,98 @@
+body{
+    margin:1.5em 5em;
+    padding:0;
+    font-family: 'poppins';
+    background:url(image/dog.jpg);
+    background-size: cover;
+}
+a{
+    font-size: 6rem;
+    top: 20%;
+    outline: none;
+}
+
+.logo{
+    color:black;
+    font-weight:bold;
+    font-size: 2rem;
+    padding:0;
+}
+    span{
+        color:green;
+        outline: none;
+    }
+    ul{
+        list-style-type:none;
+        padding:0;
+        text-transform: uppercase;
+        margin:0;
+        position:left;
+       
+    }
+        a{
+            color:black;
+            padding:.5em 1.5em;
+            display: block;
+            font-size:.9em;
+         
+        }
+
+    header{
+    display: grid;
+    justify-content: space-between;
+  
+}
+
+.box{
+    width:250px;
+    padding:30px;
+    position: absolute;
+    top:2%;
+    left:40%;
+    transform: translate(-50%,-50);
+    background: whitesmoke;
+    text-align:center;
+}
+.box h1
+{
+    color: black;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.box input[type="text"], .box input[type="password"]
+{
+    border:0;
+    background: none;
+    display: block;
+    margin:20px auto;
+    text-align: center;
+    border:3px solid green;
+    padding: 14px 20px;
+    width: 220px,
+    outline, none;
+    border-radius:24px;
+    transition:0.25px;
+}
+.box input[type="text"]:focus, .box input[type="password"]:focus{
+    width:270px;
+    border-color: whitesmoke;
+
+}
+.h2[id="submits"]{
+    border:0;
+    background: none;
+    display: block;
+    margin:20px auto;
+    text-align: center;
+    border:3px solid black;
+    padding: 14px 25px;
+    width: 220px,
+    outline- none;
+    color:black;
+    border-radius:24px;
+    transition:0.25px;
+
+}
+.h2[type="submits"]:hover{
+    background: gainsboro;
+}

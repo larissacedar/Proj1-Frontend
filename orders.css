@@ -1,0 +1,22 @@
+body{
+    margin:1.5em 5em;
+    padding:100;
+    font-family: 'poppins';
+    background:url(image/image1.jpg);
+    background-size: cover;
+}
+p{
+    width:10ch, left;
+
+    border: 10px;
+    background: none;
+    display: block;
+    margin:10px auto;
+    text-align: left;
+    padding: 2px 3x;
+    outline: none;
+    border-radius:4px;
+    transition:0.25px;
+
+
+}

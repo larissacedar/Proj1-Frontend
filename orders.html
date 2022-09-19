@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!-- metadata(styling, title, encondings, etc) -->
+  <head>
+    <title>Fetch System</title>
+    <link rel="stylesheet" href="orders.css" />
+  </head>
+  <body>
+    <h1>ORDER PORTAL</h1>
+    <!--paragraph-->
+    <p>Orders displayed here:</p>
+    <!--a tag that is inline - doesnt generate new lines-->
+    <span id="container"></span>
+    <br />
+    <ul id="loadOrders1"></ul>
+    <button id="loadButton"><b>Load Orders</b></button>
+    <!------------------------------------------------------------->
+    <!--
+    <p><b>Customers:</b></p>
+    <span id="containerCustomer"></span>
+    <br />
+    <button id="addButton2">load customers</button>
+    <script src="customers.js"></script>-->
+    <!-------------------------------------------------------------->
+    <p><b>Add Order:</b></p>
+    <p>order_id:</p>
+    <input id="order_idInput" type="text" />
+    <!-------------------------------------------------------------->
+    <p>protein:</p>
+    <input id="proteinInput" type="text" />
+    <!-------------------------------------------------------------->
+    <p>price:</p>
+    <input id="priceInput" type="text" />
+    <!-------------------------------------------------------------->
+    <p>yearorder:</p>
+    <input id="yearorderInput" type="text" />
+    <!-------------------------------------------------------------->
+    <p>customerID:</p>
+    <input id="customerIDInput" type="text" />
+    <br />
+    <button id="addButton"><b>Add New Order</b></button>
+    <!-------------------------------------------------------------->
+    <p><b>Cancel Order:</b></p>
+    <p>order_id:</p>
+    <input id="orderInput" type="text" />
+    <button id="addButton1"><b>Remove Order</b></button>
+    <script src="orders.js"></script>
+  </body>
+</html>
